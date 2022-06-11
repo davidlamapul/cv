@@ -65,7 +65,8 @@ div.page {
 }
 
 .languages {
-    display: grid; grid-template-columns: auto auto auto auto;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .double-column {
@@ -88,6 +89,10 @@ div.page {
 
 .group {
     margin-bottom: 2rem;
+}
+
+.b {
+    font-weight: bold;
 }
 
 p {
