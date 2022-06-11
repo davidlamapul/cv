@@ -49,6 +49,9 @@ div.page {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#313c4e;
+    height: 1cm;
+    margin: 20pt -1cm 0 -1cm
 }
 
 .separator > div {
