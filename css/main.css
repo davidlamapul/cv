@@ -65,6 +65,15 @@ div.page {
     display: grid; grid-template-columns: auto auto auto auto;
 }
 
+.double-column {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.content {grid-column: span 2}
+.title > p {font-weight: bold}
+
 .material-icons {
     font-size: 10pt !important;
     vertical-align: bottom;
